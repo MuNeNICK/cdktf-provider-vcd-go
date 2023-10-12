@@ -1,9 +1,9 @@
 package networkroutedv2
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/networkroutedv2/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/networkroutedv2/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

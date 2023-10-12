@@ -1,9 +1,9 @@
 package datavcdnsxtdynamicsecuritygroup
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/datavcdnsxtdynamicsecuritygroup/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdnsxtdynamicsecuritygroup/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

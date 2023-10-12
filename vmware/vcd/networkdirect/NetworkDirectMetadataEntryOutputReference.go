@@ -1,9 +1,9 @@
 package networkdirect
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/networkdirect/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/networkdirect/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

@@ -1,9 +1,9 @@
 package datavcdvmplacementpolicy
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/datavcdvmplacementpolicy/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdvmplacementpolicy/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

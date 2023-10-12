@@ -1,9 +1,9 @@
 package vappnetwork
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/vappnetwork/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/vappnetwork/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

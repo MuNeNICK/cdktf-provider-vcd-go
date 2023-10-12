@@ -1,9 +1,9 @@
 package datavcdnetworkpool
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/datavcdnetworkpool/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdnetworkpool/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

@@ -1,9 +1,9 @@
 package rightsbundle
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/rightsbundle/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/rightsbundle/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

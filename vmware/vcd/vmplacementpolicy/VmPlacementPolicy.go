@@ -1,9 +1,9 @@
 package vmplacementpolicy
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/vmplacementpolicy/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/vmplacementpolicy/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

@@ -1,9 +1,9 @@
 package datavcdnsxtedgegateway
 
 import (
-	_init_ "app/internal/cdktf/generated/vmware/vcd/jsii"
+	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"app/internal/cdktf/generated/vmware/vcd/datavcdnsxtedgegateway/internal"
+	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdnsxtedgegateway/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
