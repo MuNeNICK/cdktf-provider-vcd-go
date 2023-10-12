@@ -1,9 +1,9 @@
 package datavcdcatalogitem
 
 import (
-	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
+	_init_ "github.com/munenick/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdcatalogitem/internal"
+	"github.com/munenick/cdktf-provider-vcd-go/vmware/vcd/datavcdcatalogitem/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

@@ -1,9 +1,9 @@
 package datavcdnsxtedgegatewayqosprofile
 
 import (
-	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
+	_init_ "github.com/munenick/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdnsxtedgegatewayqosprofile/internal"
+	"github.com/munenick/cdktf-provider-vcd-go/vmware/vcd/datavcdnsxtedgegatewayqosprofile/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 

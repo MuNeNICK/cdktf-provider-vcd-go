@@ -1,9 +1,9 @@
 package datavcdnetworkroutedv2
 
 import (
-	_init_ "github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/jsii"
+	_init_ "github.com/munenick/cdktf-provider-vcd-go/vmware/vcd/jsii"
 
-	"github.com/MuNeNICK/cdktf-provider-vcd-go/vmware/vcd/datavcdnetworkroutedv2/internal"
+	"github.com/munenick/cdktf-provider-vcd-go/vmware/vcd/datavcdnetworkroutedv2/internal"
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
