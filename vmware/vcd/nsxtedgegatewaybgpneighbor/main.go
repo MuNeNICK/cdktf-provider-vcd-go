@@ -1,0 +1,103 @@
+package nsxtedgegatewaybgpneighbor
+
+import (
+	"reflect"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+)
+
+func init() {
+	_jsii_.RegisterClass(
+		"vcd.nsxtEdgegatewayBgpNeighbor.NsxtEdgegatewayBgpNeighbor",
+		reflect.TypeOf((*NsxtEdgegatewayBgpNeighbor)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "allowAsIn", GoGetter: "AllowAsIn"},
+			_jsii_.MemberProperty{JsiiProperty: "allowAsInInput", GoGetter: "AllowAsInInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bfdDeadMultiple", GoGetter: "BfdDeadMultiple"},
+			_jsii_.MemberProperty{JsiiProperty: "bfdDeadMultipleInput", GoGetter: "BfdDeadMultipleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bfdEnabled", GoGetter: "BfdEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "bfdEnabledInput", GoGetter: "BfdEnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bfdInterval", GoGetter: "BfdInterval"},
+			_jsii_.MemberProperty{JsiiProperty: "bfdIntervalInput", GoGetter: "BfdIntervalInput"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "edgeGatewayId", GoGetter: "EdgeGatewayId"},
+			_jsii_.MemberProperty{JsiiProperty: "edgeGatewayIdInput", GoGetter: "EdgeGatewayIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "gracefulRestartMode", GoGetter: "GracefulRestartMode"},
+			_jsii_.MemberProperty{JsiiProperty: "gracefulRestartModeInput", GoGetter: "GracefulRestartModeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "holdDownTimer", GoGetter: "HoldDownTimer"},
+			_jsii_.MemberProperty{JsiiProperty: "holdDownTimerInput", GoGetter: "HoldDownTimerInput"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "inFilterIpPrefixListId", GoGetter: "InFilterIpPrefixListId"},
+			_jsii_.MemberProperty{JsiiProperty: "inFilterIpPrefixListIdInput", GoGetter: "InFilterIpPrefixListIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ipAddress", GoGetter: "IpAddress"},
+			_jsii_.MemberProperty{JsiiProperty: "ipAddressInput", GoGetter: "IpAddressInput"},
+			_jsii_.MemberProperty{JsiiProperty: "keepAliveTimer", GoGetter: "KeepAliveTimer"},
+			_jsii_.MemberProperty{JsiiProperty: "keepAliveTimerInput", GoGetter: "KeepAliveTimerInput"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberProperty{JsiiProperty: "org", GoGetter: "Org"},
+			_jsii_.MemberProperty{JsiiProperty: "orgInput", GoGetter: "OrgInput"},
+			_jsii_.MemberProperty{JsiiProperty: "outFilterIpPrefixListId", GoGetter: "OutFilterIpPrefixListId"},
+			_jsii_.MemberProperty{JsiiProperty: "outFilterIpPrefixListIdInput", GoGetter: "OutFilterIpPrefixListIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "password", GoGetter: "Password"},
+			_jsii_.MemberProperty{JsiiProperty: "passwordInput", GoGetter: "PasswordInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "remoteAsNumber", GoGetter: "RemoteAsNumber"},
+			_jsii_.MemberProperty{JsiiProperty: "remoteAsNumberInput", GoGetter: "RemoteAsNumberInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowAsIn", GoMethod: "ResetAllowAsIn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBfdDeadMultiple", GoMethod: "ResetBfdDeadMultiple"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBfdEnabled", GoMethod: "ResetBfdEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBfdInterval", GoMethod: "ResetBfdInterval"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGracefulRestartMode", GoMethod: "ResetGracefulRestartMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHoldDownTimer", GoMethod: "ResetHoldDownTimer"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInFilterIpPrefixListId", GoMethod: "ResetInFilterIpPrefixListId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKeepAliveTimer", GoMethod: "ResetKeepAliveTimer"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOrg", GoMethod: "ResetOrg"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOutFilterIpPrefixListId", GoMethod: "ResetOutFilterIpPrefixListId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPassword", GoMethod: "ResetPassword"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRouteFiltering", GoMethod: "ResetRouteFiltering"},
+			_jsii_.MemberProperty{JsiiProperty: "routeFiltering", GoGetter: "RouteFiltering"},
+			_jsii_.MemberProperty{JsiiProperty: "routeFilteringInput", GoGetter: "RouteFilteringInput"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NsxtEdgegatewayBgpNeighbor{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"vcd.nsxtEdgegatewayBgpNeighbor.NsxtEdgegatewayBgpNeighborConfig",
+		reflect.TypeOf((*NsxtEdgegatewayBgpNeighborConfig)(nil)).Elem(),
+	)
+}
